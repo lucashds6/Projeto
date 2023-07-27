@@ -1,0 +1,608 @@
+.main {
+    margin: 0;
+}
+
+.section__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5em 2em;
+}
+
+.section__main__titulo {
+    font-size: 4em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.section__main__subtitulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.recepcao {
+    padding: 1em 1em 2em 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section__img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 3px solid var(--cor-amarela);
+    border-radius: 4px;
+}
+
+.peca_agora {
+    padding: 1em 0;
+}
+
+.botao__link {
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    border: 4px;
+    padding: 10px 20px;
+    color: var(--cor-branca);
+    border: 1px solid var(--cor-amarela);
+    border-radius: 1.5em;
+
+}
+
+.linha {
+    width: 100%;
+    margin: 1em;
+}
+
+.promocao__texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+.sobrenos__descricao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 1em;
+    line-height: 1em;
+}
+
+/* -------------------------------------------
+    CARDÁPIO 
+   ------------------------------------------- 
+*/
+
+.cardapio__recepcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+.cardapio__item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.cardapio__img {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardapio__img__frango {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.cardapio__img__portuguesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.cardapio__produto {
+    display: flex;
+    border: 3px solid var(--cor-amarela);
+    border-radius: 4px;
+    margin: 1em 2em;
+    text-align: center;
+    flex-direction: column;
+}
+
+.produto__titulo {
+    margin-bottom: 0.5em;
+}
+
+.produto__descricao {
+    display: flex;
+    justify-content: center;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.bebidas__titulo {
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.cardapio__refrigerante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding: 0 0 0 1em;
+}
+
+.cardapio__suco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.botao__link {
+    padding: 0.5em 1.5em;
+}
+
+/* -------------------------------------------
+    SOBRE NÓS
+   ------------------------------------------- 
+*/
+
+.sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobrenos__titulo {
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.sobre__nos__titulo {
+    padding: 0.5em 0.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.sobre__nos {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.agradecimento {
+    font-size: 3em;
+    padding: 0.5em 0.5em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.agradecimento__texto {
+    padding: 1em 1em;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+/* -------------------------------------------
+    CADASTRO
+   ------------------------------------------- 
+*/
+
+.cadastroForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cadastro__recepcao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cadastro__titulo {
+    font-size: 3em;
+    padding: 0.5em 0.5em;
+    display: flex;
+    text-align: center;
+    color: var(--cor-amarela);
+}
+
+.form__campo {
+    padding: 1em 1em;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form__campo__input {
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-amarela);
+    border-radius: 1em;
+    color: var(--cor-branca);
+    padding: 0.5em 0.5em;
+}
+
+.form__cadastrar {
+    padding: 1em 0.5em;
+    background-color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-amarela);
+    border-radius: 1em;
+    color: var(--cor-branca);
+    margin: 1.2em;
+}
+
+.form__cadastrar:hover {
+    background-color: var(--cor-amarela);
+}
+
+/* 
+        -------------------------------------------
+        CONTATO
+        ------------------------------------------- 
+    */
+
+.ContatoMail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.Contato__Mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0em;
+}
+
+.ContatoTelefone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.Contato__Telefone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+
+.ContatoEndereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.Contato__Endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.ContatoBorda {
+    background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+}
+
+.BordaContatos {
+    background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+}
+
+/* .carrinho__recepcao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+} */
+
+/* 
+        -------------------------------------------
+        USUÁRIO
+        ------------------------------------------- 
+    */
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .section__img {
+        width: 50%;
+    }
+
+    .linha {
+        margin: 1.5em;
+    }
+
+    .peca_agora__link {
+        padding: 0.8em 0.8em;
+    }
+
+    .promocao__texto {
+        width: 50%;
+    }
+
+    /* 
+        -------------------------------------------
+        SOBRE NÓS
+        ------------------------------------------- 
+    */
+
+    .sobrenos__descricao {
+        display: flex;
+        justify-content: center;
+    }
+
+    .recepcao {
+        font-size: 1.3em;
+    }
+
+    .promocao__texto {
+        font-size: 1.3em;
+    }
+
+    .sobrenos__descricao {
+        font-size: 1.3em;
+    }
+
+    .botao__link {
+        font-size: 1.2em;
+    }
+
+    /*  -------------------------------------------
+        CARDÁPIO 
+        ------------------------------------------- 
+    */
+
+    .cardapio__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    .cardapio__img__frango {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+
+    .cardapio__img__portuguesa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26%;
+    }
+
+    .cardapio__item {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cardapio__produto {
+        display: flex;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
+    .produto__titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .produto__descricao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .preco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1em 0 0 0;
+        font-size: 1.6em;
+    }
+
+    .cardapio__refrigerante {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 12%;
+        padding: 0 0 0 7em;
+    }
+
+    .cardapio__suco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16%;
+        padding: 0 0 0 4em;
+    }
+
+    .cardapio__recepcao {
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    /*  -------------------------------------------
+        CADASTRO 
+        ------------------------------------------- 
+    */
+
+    .cadastro__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .form__campo {
+        padding: 1em 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+    }
+
+    .form__campo__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 0.7em 2em;
+    }
+
+    .form__cadastrar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+    }
+
+    .form__cadastrar:hover {
+        background-color: var(--cor-amarela);
+    }
+
+    /*  -------------------------------------------
+        CARRINHO
+        ------------------------------------------- 
+    */
+
+    .carrinho__recepcao {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    /*  -------------------------------------------
+        USUÁRIO
+        ------------------------------------------- 
+    */
+
+    .user__icone {
+        margin: 1.5em;
+    }
+
+    .userForm {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .form__campos {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .user__form {
+        padding: 1em;
+        background-color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__form__input {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        padding: 0.5em 0.5em;
+        margin: 1em;
+    }
+
+    .botao__alterar {
+        align-items: center;
+    }
+
+    .user__alterar {
+        background-color: var(--cor-de-fundo);
+        border: 2px solid var(--cor-amarela);
+        border-radius: 1em;
+        color: var(--cor-branca);
+        margin: 1.2em;
+        flex-direction: column;
+        display: flex;
+        padding: 3em 2em;
+    }
+    
+}

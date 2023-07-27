@@ -1,0 +1,17 @@
+@import url(/css/header.css);
+@import url(/css/main.css);
+@import url(/css/footer.css);
+
+:root {
+    --cor-amarela: #FF9F1C;
+    --cor-de-fundo: #011627;
+    --cor-branca: #FDFFFC;
+
+    --fonte-principal: "Poppins";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+}

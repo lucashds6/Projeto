@@ -1,0 +1,128 @@
+.cabecalho {
+    background-color: var(--cor-amarela);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__nav__item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.cabecalho__logo {
+    width: 25%;
+    display: flex;
+    right: 0;
+    padding: 0 1em;
+}
+
+.cabecalho__menu-hamburguer {
+    height: 34px;
+    width: 34px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 0 0 0 1em;
+}
+
+.menu__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer {
+    background-image: url(../img/MenuAberto.svg);
+    display: block;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 8%;
+    width: 60vw;
+}
+
+.lista-menu-sec{
+    display: none;
+}
+
+.menu__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--cor-amarela);
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.menu__botao {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5em;
+}
+
+.contato__link img {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0 0 0 0.5em;
+    background-color: var(--azul-degrade);
+    margin-right: 15px;
+    /* background-color: aqua; */
+    margin-top: 15px;
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho__nav {
+        display: flex
+    }
+
+    .menu__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .lista-menu__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-menu-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__logo {
+        width: 10%;
+    }
+
+}
